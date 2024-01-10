@@ -6,4 +6,4 @@ SELECT
 FROM sys.columns c
   INNER JOIN sys.types t 
   ON c.user_type_id = t.user_type_id
-WHERE c.object_id = OBJECT_ID('TargetTable');
+WHERE c.object_id = OBJECT_ID('dbo.TargetTable');
